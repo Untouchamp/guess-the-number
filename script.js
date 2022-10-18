@@ -22,17 +22,11 @@ const guessInputElem = document.querySelector('.guess');
 
 const messagesIfBelow = [
     `📉 Too low... 📉`,
-    `📉 Maybe You should try higher than ${
-        guessInputElem.value
-    } 📉`,
     `📉 Too small number, do higher 📉`,
     `📉 Not so low, go higher 📉`,
 ];
 const messagesIfAbove = [
     `📈 Too high now, let's try a little bit lower 📈`,
-    `📈 Maybe we should try a little less than ${
-        guessInputElem.value
-    } 📈`,
     `📈 Too high... 📈`,
     `📈 Too much, try lower 📈`,
 ];
